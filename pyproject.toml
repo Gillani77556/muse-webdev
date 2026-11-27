@@ -1,0 +1,12 @@
+[project]
+name = "muse-webdev"
+version = "0.1.0"
+description = "Complete web development skill for Muse AI"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Usman Syed"}]
+keywords = ["webdev", "web-development", "muse", "website", "design"]
+
+[project.urls]
+Homepage = "https://github.com/Gillani77556/muse-webdev"
+Repository = "https://github.com/Gillani77556/muse-webdev"

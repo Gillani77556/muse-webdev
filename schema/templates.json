@@ -1,0 +1,64 @@
+{
+  "templates": [
+    {
+      "type": "WebSite",
+      "description": "Website entity. Fill name and url with the real site.",
+      "template": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "[Your website name]",
+        "url": "[Your website URL]"
+      }
+    },
+    {
+      "type": "Organization",
+      "description": "Organisation behind the site. Fill only real details.",
+      "template": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "[Your business name]",
+        "url": "[Your website URL]",
+        "logo": "[Your logo URL]",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "[Your phone]",
+          "contactType": "customer service"
+        }
+      }
+    },
+    {
+      "type": "LocalBusiness",
+      "description": "Local business. Fill only real address, phone and hours.",
+      "template": {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "[Your business name]",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "[Your street address]",
+          "addressLocality": "[Your city]",
+          "addressCountry": "[Your country]"
+        },
+        "telephone": "[Your phone]",
+        "openingHours": "[Your opening hours]"
+      }
+    },
+    {
+      "type": "Product",
+      "description": "Product page. Fill only the real price and availability.",
+      "template": {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "[Product name]",
+        "image": "[Product image URL]",
+        "description": "[Product description]",
+        "offers": {
+          "@type": "Offer",
+          "price": "[Price]",
+          "priceCurrency": "[Currency]",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ]
+}

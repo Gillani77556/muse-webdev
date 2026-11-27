@@ -1,0 +1,3 @@
+# muse-webdev — scripts use Python stdlib only (no extra deps).
+# Optional, for local test runs:
+# pytest>=8.0

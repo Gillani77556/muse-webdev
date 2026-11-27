@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "usman-syed-muse-webdev",
+  "owner": {
+    "name": "Usman Syed"
+  },
+  "metadata": {
+    "description": "Complete web development skill for Muse AI. 36 skills and 20 background agents for scratch builds, redesigns, audits and client-ready launch."
+  },
+  "plugins": [
+    {
+      "name": "muse-webdev",
+      "source": "./",
+      "description": "Complete web development skill for Muse AI. 36 skills and 20 background agents.",
+      "author": {
+        "name": "Usman Syed"
+      },
+      "category": "development",
+      "homepage": "https://github.com/Gillani77556/muse-webdev",
+      "keywords": [
+        "webdev",
+        "web-development",
+        "website",
+        "design"
+      ]
+    }
+  ]
+}
