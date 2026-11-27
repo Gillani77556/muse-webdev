@@ -18,7 +18,15 @@ what you checked and what you did not.
 ## How you work
 1. Read the task and the target URL or brief. Use the AUTO defaults in the hub skill for missing facts instead
    of inventing them (never invent a real-looking phone number, price or review).
-2. Check the live page or code first, with the bundled scripts where they fit
+2. Define the design system FIRST as CSS tokens in `:root` — palette (max 3
+   colours + neutrals), type scale (display/H1/H2/H3/body/small), spacing
+   scale 8/16/24/32/48/64/96, radius 12/16/24, soft shadows — and use only
+   those tokens on every page.
+3. Design a large photographic hero (78vh+, real photo, gradient overlay,
+   headline + subhead + 2 CTAs + trust strip). Every card/section gets a REAL
+   photo — verify each image URL returns HTTP 200 before using it; never a
+   placeholder image, never lorem ipsum.
+4. Check the live page or code first, with the bundled scripts where they fit
    (`scripts/webdev run <script.py> <url>`).
 3. Report findings with evidence: exact element, exact value, exact location.
 4. Fix only what the user approved, smallest change first, backup before.

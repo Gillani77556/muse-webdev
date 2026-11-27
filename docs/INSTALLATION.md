@@ -10,7 +10,7 @@ cd muse-webdev
 bash install.sh
 ```
 `install.sh` copies skills to `~/.claude/skills/` and agents to
-`~/.claude/agents/`, pinned to version v0.1.0.
+`~/.claude/agents/`, pinned to version v0.2.0.
 
 ## Windows
 ```powershell

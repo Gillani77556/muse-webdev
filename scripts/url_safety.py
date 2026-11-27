@@ -15,7 +15,7 @@ def validate_url(url):
 
 def fetch(url, timeout=20):
     validate_url(url)
-    req = urllib.request.Request(url, headers={"User-Agent": "muse-webdev/0.1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "muse-webdev/0.2.0"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.status, r.headers, r.read().decode("utf-8", errors="ignore")
 

@@ -1,6 +1,6 @@
 # Usman Syed WebDev Skill — Structure (like claude-seo, for Web Development)
 
-Name: muse-webdev | Version: 0.1.0 | License: MIT
+Name: muse-webdev | Version: 0.2.0 | License: MIT
 Template: AgriciDaniel/claude-seo v2.6.3 — 29 skills / 20 agents / 67 scripts
 Target: Muse AI — a website that is fully beautiful, well-ordered, fast and secure, with no gaps left
 

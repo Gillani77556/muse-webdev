@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -37,6 +37,30 @@ made it, it is not finished.
 - [ ] No layout shift
 - [ ] Respects reduced motion
 - [ ] No autoplay video
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+Motion must feel hand-built, never gimmicky:
+1. **Reveal on scroll:** IntersectionObserver adds `.revealed` to sections
+   and cards (opacity 0 → 1, translateY(16px) → 0, 500ms ease). Once only.
+2. **Card hover:** translateY(-4px) + shadow lift, 200ms. Buttons: subtle
+   scale/brightness on hover, visible focus ring on keyboard focus.
+3. **Smooth anchors:** `scroll-behavior: smooth` + `scroll-margin-top` so
+   the sticky header never covers a heading.
+4. **Interactive feedback:** planner totals animate on change; FAQ accordion
+   opens with a height/opacity transition; mobile nav slides, not jumps.
+5. **Performance:** transform/opacity only, 200-300ms, no layout shift,
+   no animation on load for above-the-fold content beyond a gentle fade.
+6. **Respect `prefers-reduced-motion`:** disable reveals and smooth scroll.
+7. Test on mobile: no animation may block tapping, scrolling or the
+   WhatsApp button.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.

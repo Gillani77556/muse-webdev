@@ -21,3 +21,10 @@
 | `/webdev client-ready <url>` | webdev-client-ready | Client gate |
 
 Plain English works too: write `use the webdev skill to ...` and the hub will understand.
+
+**Every build ships the PREMIUM BUILD STANDARD (v0.2.0):** design-system
+tokens, large photographic hero, real photos on every card (each URL verified
+HTTP 200), a working interactive planner/calculator, full section
+architecture (hero, trust bar, services, how-it-works, why-choose-us, places,
+planner, FAQ, final CTA, footer), subtle animations, mobile-first responsive.
+A plain site fails the senior-review gate.

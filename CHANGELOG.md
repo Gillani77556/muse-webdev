@@ -1,6 +1,18 @@
 # Changelog
 
-## Unreleased
+## v0.2.0 — 2026-11-27
+- PREMIUM BUILD STANDARD (v0.2.0): every site now ships a real design system
+  (CSS tokens: palette, type scale, spacing, radius, shadows), a large
+  photographic hero (78vh+, real photo), REAL photos on every card/section
+  (each URL verified HTTP 200 before use, Unsplash source URLs, no
+  placeholder images, no lorem ipsum), a working interactive component
+  (planner/calculator with live totals), full section architecture (hero,
+  trust bar, services, how-it-works, why-choose-us, places, planner, FAQ,
+  final CTA, footer), subtle animations (reveal on scroll, hover lift,
+  200-300ms, reduced-motion respected) and mobile-first responsive. The
+  senior-review gate now fails any plain site. Hub, design, design-polish,
+  pixel-perfect, senior-review, layout, typography, images, animation, plan
+  and brief skills updated, plus ARCHITECTURE.md and COMMANDS.md.
 - AUTO MODE (default): `/webdev auto <topic>` builds a complete website from
   just a topic — no questions first. Missing name → descriptive name from the
   topic marked `[TO CONFIRM]`; missing phone → omitted, contact form instead,

@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -36,6 +36,34 @@ made it, it is not finished.
 - [ ] Every section reviewed
 - [ ] Every gap listed
 - [ ] No AI-looking pattern left
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+Do not say "ready" until EVERY gate below passes. One fail = not ready.
+- [ ] Design system exists: CSS tokens (palette, type scale, spacing,
+  radius, shadows) in `:root`, used on every page.
+- [ ] Hero is a large REAL photo (78vh+), headline + 2 CTAs + trust strip.
+- [ ] Every tour/card/section has a REAL photo; each URL verified HTTP 200
+  before use; alt text on every image; zero placeholder images.
+- [ ] Interactive component present and working (planner/calculator/filter),
+  tested with real inputs; totals update live.
+- [ ] Full architecture: header, hero, trust bar, services, how-it-works,
+  why-choose-us, places, planner, FAQ, final CTA, footer.
+- [ ] Mobile-first: no overflow at 360px, tap targets 44px+, nav works.
+- [ ] No lorem ipsum, no invented reviews, no invented phone/price/address;
+  sample prices labelled "Sample price" on every price.
+- [ ] All pages return 200, internal links unbroken, schema valid.
+- [ ] The site does not look AI-made or template-made: real photos, varied
+  copy, consistent but human design.
+List every gap with its fix. A plain site with correct structure but no
+photos, no planner and no polish FAILS this gate.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.

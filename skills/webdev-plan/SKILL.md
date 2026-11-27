@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -57,6 +57,32 @@ one message.
 - [ ] Audience named
 - [ ] Pages listed
 - [ ] Budget and timeline stated
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+The plan for every build must include the premium scope below, or the
+plan is incomplete:
+- **Design system:** palette (from topic), 2 fonts, tokens, hero photo
+  subject, photo list (one real photo per card/section, URLs to verify).
+- **Pages:** Home + one page per service/tour + About + FAQ + Contact.
+- **Sections (homepage order):** header, hero, trust bar, services grid,
+  how-it-works, why-choose-us, places, interactive planner, FAQ, final
+  CTA, footer.
+- **Interactive component:** name it (e.g. trip planner with live totals
+  + WhatsApp message) and its inputs/outputs.
+- **Photography:** list every photo needed with its subject; verify each
+  URL returns 200 before build.
+- **Checks:** page checks, broken links, schema, responsive, senior-review
+  premium gate, live deploy check.
+A plan that lists "Home, About, Contact" with no design system, no photos
+and no interactive component is an incomplete plan — rewrite it.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.

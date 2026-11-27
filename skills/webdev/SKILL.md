@@ -6,7 +6,7 @@ argument-hint: "[command] [url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -54,7 +54,7 @@ the topic; the system automates everything else.
 | Colours / style | Pick a professional palette from the topic (bakery → warm cream/brown; travel → teal/sand; cleaning → blue/white). |
 | Pages | Home, Services/Tours/Products, About, FAQ, Contact. Add a shop/order page only if the topic is a shop. |
 | Language | English, unless the user says otherwise. |
-| Images | Use real photos of the topic/place where available; otherwise clean CSS/gradient visuals — never a fake photo of the business. |
+| Images | Use REAL photos on the hero and every card/section (Unsplash source URLs, each verified HTTP 200 before use). Never a placeholder image or grey box. |
 | Reviews / testimonials | Never invent them. Omit the section entirely. |
 
 ### When to ask — only when truly blocking
@@ -105,6 +105,44 @@ fact that truly blocks the build.
 A visitor must understand in 5 seconds what the site does and what to do
 next. Few colours, clean fonts, generous whitespace, one style everywhere,
 nothing cut off, nothing invented. If it looks AI-made, it is not finished.
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+Every site built by this skill must look and feel like a 25-30 year senior
+developer designed and built it by hand. A plain page with text and one
+button is NOT a finished site — it fails the senior-review gate.
+Mandatory on every build:
+1. **Design system first** — CSS tokens in `:root`: palette (primary,
+   accent, ink, paper, muted), type scale, spacing scale (8/16/24/32/48/
+   64/96), radius (12/16/24), soft shadows. Max 3 colours + neutrals,
+   max 2 font families (Google Fonts, max 2 weights each).
+2. **Large photographic hero** — min-height 78vh, REAL photo, dark gradient
+   overlay, one headline, one subhead, two CTAs, and a trust strip below it.
+3. **REAL photos everywhere** — hero + every tour/card/section gets a real
+   photo. Verify EVERY image URL returns HTTP 200 before using it
+   (`curl -s -o /dev/null -w "%{http_code}" <url>`). Use
+   `images.unsplash.com` photo URLs with `?auto=format&fit=crop&w=1600&q=80`.
+   Every `<img>` has descriptive alt text; `loading="lazy"` except the hero.
+4. **Interactive component on every site** — a working planner/calculator/
+   filter in vanilla JS (e.g. trip planner that totals live and builds a
+   WhatsApp message). It must actually work, not be a dead form.
+5. **Full section architecture** — sticky header, hero, trust bar, services/
+   tours grid, how-it-works (3-4 steps), why-choose-us, places/destinations,
+   interactive planner, FAQ accordion, final CTA, footer with real contact.
+6. **Subtle motion** — IntersectionObserver fade-up reveals, card hover lift,
+   smooth anchor scroll. 200-300ms, transform/opacity only, respect
+   `prefers-reduced-motion`.
+7. **Mobile-first responsive** — base mobile, breakpoints 640/900/1200, no
+   horizontal overflow at 360px, tap targets 44px or larger.
+8. **Speed** — max 2 font families, images sized with `w=` params, no
+   autoplay, no heavy libraries; one shared stylesheet for the whole site.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; live changes only after the user approves.

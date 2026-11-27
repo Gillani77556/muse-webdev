@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -53,6 +53,29 @@ domain to deploy to).
 - [ ] Every page has a purpose
 - [ ] Every section has content source
 - [ ] CTAs named
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+The blueprint for every page must specify the premium elements below:
+- Per page: hero photo subject, sections in order, one CTA per section.
+- Per card: real photo subject + URL to verify, title, duration, 2-3
+  highlights, sample price (labelled "Sample price"), WhatsApp CTA.
+- Homepage blueprint always includes: hero, trust bar, tours grid,
+  how-it-works, why-choose-us, places, planner, FAQ, final CTA, footer.
+- Interactive component blueprint: inputs, live outputs, WhatsApp message
+  format.
+- Photo list: every photo with subject and verified URL (HTTP 200).
+- Defaults used: list them all (name, phone, prices, palette) so the user
+  can correct them in one message.
+A blueprint without photos, planner and full sections is not a blueprint —
+finish it before building.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.

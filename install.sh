@@ -3,7 +3,7 @@ set -euo pipefail
 # Muse WebDev installer (mirrors claude-seo install.sh pattern).
 # Copies skills to ~/.claude/skills and agents to ~/.claude/agents.
 # Run ONLY after you have cloned this repo yourself.
-REPO_TAG="${MUSE_WEBDEV_TAG:-v0.1.0}"
+REPO_TAG="${MUSE_WEBDEV_TAG:-v0.2.0}"
 SKILL_DIR="${HOME}/.claude/skills/webdev"
 AGENT_DIR="${HOME}/.claude/agents"
 echo "Installing muse-webdev ${REPO_TAG} ..."

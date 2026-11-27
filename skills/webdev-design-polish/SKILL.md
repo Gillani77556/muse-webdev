@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -37,6 +37,31 @@ made it, it is not finished.
 - [ ] Whitespace even
 - [ ] Colours balanced
 - [ ] One style everywhere
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+Polish is what separates a demo from a senior build. Check in order:
+1. **Hierarchy:** eye goes headline → subhead → primary CTA → trust strip.
+   One primary CTA per section; secondary CTAs are quiet links.
+2. **Photography:** every card has a real photo with the same aspect ratio
+   (16/10 cards, 16/9 hero); no stretched, pixelated or mismatched images.
+3. **Rhythm:** equal gaps between cards, equal section padding, aligned
+   baselines; no orphan headings at a section bottom.
+4. **Colour balance:** one dominant colour, one accent used sparingly
+   (CTAs + small highlights only), neutrals for the rest.
+5. **Micro-details:** consistent button radius, icon style, price format,
+   "Sample price" label styled the same everywhere, footer complete.
+6. **No AI-looking patterns:** no generic gradient blobs, no emoji bullets,
+   no identical card copy, no lorem ipsum.
+If the page still looks like a template, it is not finished — change the
+hero, the palette or the photography, not just the spacing.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.

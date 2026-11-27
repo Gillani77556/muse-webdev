@@ -6,7 +6,7 @@ argument-hint: "[url or brief]"
 license: MIT
 metadata:
   author: Usman Syed
-  version: "0.1.0"
+  version: "0.2.0"
   category: webdev
 ---
 
@@ -37,6 +37,29 @@ made it, it is not finished.
 - [ ] Alignment straight
 - [ ] No overflow
 - [ ] No cut-off text
+
+
+## PREMIUM BUILD STANDARD (25-30 year expert, v0.2.0)
+Measure every item below at 360px, 768px and 1280px and record the numbers:
+- [ ] No horizontal overflow at any width (document.scrollWidth <=
+  innerWidth at 360/768/1280).
+- [ ] Every image is a real photo, loads (HTTP 200), correct aspect ratio,
+  no distortion, alt text present.
+- [ ] Hero is full-bleed, min-height 78vh, headline never cut off.
+- [ ] Card grids align: equal heights per row, equal gaps, images same ratio.
+- [ ] Tap targets 44px or larger on mobile; nav usable without zoom.
+- [ ] Sticky header never covers section headings (scroll-margin-top set).
+- [ ] FAQ accordion opens/closes; planner updates totals live.
+- [ ] No placeholder text, no lorem ipsum, no grey-box images.
+- [ ] Footer complete on every page: brand, contact, links, copyright.
+Report the measured widths and the image count with each URL's HTTP status.
+
+- Never invent a phone number, price, review or address. Sample prices are
+  always labelled "Sample price" on every price, plus one note on the page
+  saying prices are samples. No invented reviews — omit that section.
+- No lorem ipsum, no placeholder text, no placeholder images
+  (placehold.co, dummyimage, grey boxes). If a real photo is unavailable,
+  use a designed CSS gradient panel with a real heading — never a fake photo.
 
 ## Rules
 - Back up first; change live only after the user approves.
