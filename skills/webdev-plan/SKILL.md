@@ -32,16 +32,16 @@ made it, it is not finished.
 2. List pages, sections, CTAs and integrations in priority order.
 3. Write the plan as a checklist the user can approve line by line.
 
-## Agar user ne sirf "website banao" kaha ho
-Ruk kar ye 5-6 sawal poochho, phir aage badho — invent mat karo:
-1. Business kya hai, kya bechta hai / kya service deta hai?
-2. Kiske liye hai — customer kaun hai?
-3. Kaunse pages chahiye? (Home, Services, About, Contact, Shop?)
-4. Phone / WhatsApp number kya hai? Email kya hai?
-5. Color ya style pasand kya hai? Koi example site hai?
-6. Budget ya deadline hai to batao, warna [TO CONFIRM] likho.
-Jawab milte hi plan/brief banao. Jo jawab na mile, use `[TO CONFIRM]` likho,
-guess mat karo.
+## If the user has only said "build a website"
+Stop and ask these 5–6 questions, then move on — never invent:
+1. What is the business, what does it sell / what service does it provide?
+2. Who is it for — who is the customer?
+3. Which pages are needed? (Home, Services, About, Contact, Shop?)
+4. What is the phone / WhatsApp number? What is the email?
+5. What colours or style are preferred? Is there an example site?
+6. If there is a budget or deadline, say so; otherwise write [TO CONFIRM].
+As soon as you have the answers, write the plan/brief. For any answer you do not get, write `[TO CONFIRM]`;
+never guess.
 
 ## Checklist
 - [ ] Goal is written in one sentence
@@ -53,5 +53,5 @@ guess mat karo.
 - Back up first; change live only after the user approves.
 - Title, URL and content changes need the user's explicit yes.
 - After every fix, re-check live and show the evidence (status, screenshot
-  or measured number). Never say "ho gaya" without a live check.
+  or measured number). Never say "done" without a live check.
 - Keep the site fast: no heavy fonts, no uncompressed images, no autoplay.

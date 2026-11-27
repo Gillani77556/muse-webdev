@@ -20,7 +20,7 @@ the URL or brief. Run checks through
 
 | Command | What it does | Skill |
 |---|---|---|
-| `/webdev build <brief>` | **Scratch se nayi website — MAIN use case** | webdev-plan, webdev-brief, webdev-architecture |
+| `/webdev build <brief>` | **New website from scratch — MAIN use case** | webdev-plan, webdev-brief, webdev-architecture |
 | `/webdev audit <url>` | Full site audit, scored, prioritised fix list | webdev-audit |
 | `/webdev build <brief>` | New site: plan + architecture + build | webdev-plan, webdev-brief, webdev-architecture |
 | `/webdev redesign <url>` | Old site made beautiful, same content unless approved | webdev-design, webdev-layout, webdev-design-polish |
@@ -38,23 +38,23 @@ the URL or brief. Run checks through
 | `/webdev senior-review <url>` | Senior-developer final review | webdev-senior-review |
 | `/webdev client-ready <url>` | Final gate before sending to a client | webdev-client-ready |
 
-## MAIN USE CASE — Scratch se nayi website (pehle number par)
-Ye skill ka sab se bara kaam hai: koi bhi business ho — home, dukaan,
-service, koi bhi — banda skill install karke Muse mein kaam shuru kare, bas
-bole "website banao", apna program/brief de, aur peeche ye skill chale.
+## MAIN USE CASE — A new website from scratch (first priority)
+This is the skill's biggest job: whatever the business — home services, a shop,
+a service, anything — the user installs the skill, starts work in Muse, just
+says "build a website", gives their brief, and the skill runs in the background.
 
 ### Scratch flow — 5 steps
-1. **Brief lo** — business kya hai, kya bechta hai, kiske liye hai, pages
-   kaunse, color/style pasand hai. Jo missing ho, skill khud poochhe.
-2. **Plan banao** — pages, sections, CTAs, integrations, timeline.
+1. **Take the brief** — what the business is, what it sells, who it is for, which pages
+   are needed, preferred colours/style. The skill asks about anything missing itself.
+2. **Make the plan** — pages, sections, CTAs, integrations, timeline.
 3. **Design system** — colors, fonts, spacing, layout — senior standard.
-4. **Build** — frontend + backend + forms + content, agents peeche kaam karein.
+4. **Build** — frontend + backend + forms + content, with agents working in the background.
 5. **Live check + senior review + client-ready gate** — speed, links, forms,
-   screenshots, phir hi "ready" kaho.
+   screenshots — only then say "ready".
 
-User ko sirf apna brief dena hai. Skill khud poochhe jo missing ho, invent
-na kare. Agar user ne sirf "website banao" kaha ho, to pehle 5-6 sawal poochho
-(webdev-plan / webdev-brief dekho), phir aage badho.
+The user only has to give their brief. The skill asks about anything missing itself and never
+invents anything. If the user has only said "build a website", first ask 5–6 questions
+(see webdev-plan / webdev-brief), then move on.
 
 ## How the hub works
 1. Read the command and route to the matching sub-skill above.
@@ -63,16 +63,16 @@ na kare. Agar user ne sirf "website banao" kaha ho, to pehle 5-6 sawal poochho
 4. Run the Pro gates (senior-review, pixel-perfect, client-ready) before
    calling anything ready.
 
-## Background agents — peeche kaam, aap baat karte raho
-Aap bas "website banao" bolo — peeche agents kaam karenge: design, build,
-check, polish. Aap baat karte raho, agents peeche apna hissa karte rahen.
-Jaise claude-seo audit mein agents parallel kaam karte the, waise hi yahan
-scratch build mein: design agent design kare, frontend agent code likhe,
-performance agent speed check kare, visual agent screenshot le, senior-review
-agent aakhir mein check kare — sab apne apne hisse par, ek saath, peeche.
-Hub kaam ko tod kar sahi agents ko peeche bhejta hai; user ko har waqt jawab
-nahi dena parta. Agent apna kaam karke report deta hai, user se baar baar
-sawal nahi poochhta — sirf jo missing ho, wohi poochhta hai.
+## Background agents — working in the background while you talk
+Just say "build a website" — the agents work in the background: design, build,
+check, polish. You keep talking while the agents do their part in the background.
+Just as agents worked in parallel in a claude-seo audit, here in a
+scratch build: the design agent designs, the frontend agent writes the code, the
+performance agent checks speed, the visual agent takes screenshots, and the senior-review
+agent checks everything at the end — each on its own part, together, in the background.
+The hub breaks the work down and sends it to the right agents in the background; the user does not
+have to answer all the time. An agent reports back when its work is done and does not keep asking
+questions — it only asks about what is missing.
 
 ## Senior standard (25-30 years)
 A visitor must understand in 5 seconds what the site does and what to do

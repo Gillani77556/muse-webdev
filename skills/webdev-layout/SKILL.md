@@ -1,6 +1,6 @@
 ---
 name: webdev-layout
-description: "Hero, header, footer, sections and grid — tartib, nothing cut off. Use when the user asks for layout, or the hub routes this work to you."
+description: "Hero, header, footer, sections and grid — everything in order, nothing cut off. Use when the user asks for layout, or the hub routes this work to you."
 user-invocable: true
 argument-hint: "[url or brief]"
 license: MIT
@@ -14,7 +14,7 @@ metadata:
 
 **Command:** `/webdev layout <url or brief>`
 
-Hero, header, footer, sections and grid — tartib, nothing cut off.
+Hero, header, footer, sections and grid — everything in order, nothing cut off.
 
 ## Senior standard (25-30 years)
 Think like a senior web developer who built the site by hand: first the
@@ -42,5 +42,5 @@ made it, it is not finished.
 - Back up first; change live only after the user approves.
 - Title, URL and content changes need the user's explicit yes.
 - After every fix, re-check live and show the evidence (status, screenshot
-  or measured number). Never say "ho gaya" without a live check.
+  or measured number). Never say "done" without a live check.
 - Keep the site fast: no heavy fonts, no uncompressed images, no autoplay.

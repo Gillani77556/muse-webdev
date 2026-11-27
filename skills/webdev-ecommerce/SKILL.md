@@ -42,5 +42,5 @@ made it, it is not finished.
 - Back up first; change live only after the user approves.
 - Title, URL and content changes need the user's explicit yes.
 - After every fix, re-check live and show the evidence (status, screenshot
-  or measured number). Never say "ho gaya" without a live check.
+  or measured number). Never say "done" without a live check.
 - Keep the site fast: no heavy fonts, no uncompressed images, no autoplay.

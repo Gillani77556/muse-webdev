@@ -1,19 +1,21 @@
-# Muse WebDev
+# Usman Syed WebDev Skill
 
-**Scratch se professional website — jaise 25-30 saal ke senior web developer ne khud banayi ho.**
+by Usman Syed — Complete web development skill for Muse AI
 
-> Aap bas "website banao" bolo, peeche agents kaam karenge — design, build,
-> check, polish — aap baat karte raho.
+**A professional website built from scratch — as if a senior web developer with 25–30 years of experience built it by hand.**
 
-## Pehle ye flow samjho (MAIN use case)
-1. **Install karo** — neeche install steps dekho.
-2. **Muse mein bolo "website banao"** — apna program/brief do: business kya
-   hai, kya bechta hai, kiske liye hai, pages kaunse, color/style pasand.
-3. **Skill peeche chalegi** — Step 1 brief lo (jo missing ho khud poochhe),
-   Step 2 plan, Step 3 design system, Step 4 build, Step 5 live check +
+> Just say "build a website" — agents work in the background: design, build,
+> check, polish — while you keep talking.
+
+## First, understand this flow (MAIN use case)
+1. **Install** — see the install steps below.
+2. **Tell Muse "build a website"** — give your brief: what the business is,
+   what it sells, who it is for, which pages you need, and your preferred colours/style.
+3. **The skill runs in the background** — Step 1 takes the brief (and asks about anything missing),
+   Step 2 plans, Step 3 builds the design system, Step 4 builds, Step 5 live-checks +
    senior review + client-ready gate.
 
-Koi bhi business ho — home, dukaan, service, koi bhi — yehi flow chalta hai.
+Whatever the business — home services, a shop, a service, anything — the flow is the same.
 
 ## Install
 ```bash
@@ -24,23 +26,23 @@ bash install.sh
 
 ## Use — copy-paste lines
 ```
-webdev skill use karke meri home cleaning business ke liye scratch se website banao.
-Business: ghar ki safai, Karachi. Services: deep cleaning, sofa cleaning, kitchen cleaning.
-Phone/WhatsApp: [apna number likho]. Color: neela aur safed, premium look chahiye.
+Use the webdev skill to build a website from scratch for my home cleaning business.
+Business: home cleaning, Karachi. Services: deep cleaning, sofa cleaning, kitchen cleaning.
+Phone/WhatsApp: [your number here]. Colours: blue and white, premium look.
 ```
 ```
-webdev skill use karke meri kapron ki dukaan ke liye scratch se website banao.
-Dukaan: [dukaan ka naam], Lahore. WhatsApp order button chahiye.
+Use the webdev skill to build a website from scratch for my clothing shop.
+Shop: [shop name], Lahore. WhatsApp order button needed.
 ```
 ```
-/webdev audit https://[aapki-site].com
-/webdev redesign https://[aapki-site].com
-/webdev fix https://[aapki-site].com
-/webdev launch https://[aapki-site].com
+/webdev audit https://[your-site].com
+/webdev redesign https://[your-site].com
+/webdev fix https://[your-site].com
+/webdev launch https://[your-site].com
 ```
-Poori list: [docs/USAGE.md](docs/USAGE.md) — 10 copy-paste examples.
+Full list: [docs/USAGE.md](docs/USAGE.md) — 10 copy-paste examples.
 
-## Kya cover hai — 36 skills, 20 agents
+## What it covers — 36 skills, 20 agents
 - **Plan/Architecture (5):** plan, brief, architecture (+stack), audit
 - **Design/Beauty (7):** design, layout, responsive, typography, animation, images, UX
 - **Frontend (5):** page, frontend, forms, accessibility, content
@@ -50,23 +52,23 @@ Poori list: [docs/USAGE.md](docs/USAGE.md) — 10 copy-paste examples.
 - **Pro +6:** senior-review, pixel-perfect, design-polish, trust, copy-expert, client-ready
 
 ## Background agents
-Hub kaam ko tod kar sahi agents ko peeche bhejta hai — design agent design
-kare, frontend agent code likhe, performance agent speed check kare, visual
-agent screenshot le, senior-review agent aakhir mein check kare. Sab apne
-apne hisse par, ek saath, peeche. User ko har waqt jawab nahi dena parta.
+The hub breaks the work down and sends it to the right agents in the background — the design agent designs,
+the frontend agent writes the code, the performance agent checks speed, the visual
+agent takes screenshots, and the senior-review agent checks everything at the end. Each works on its own
+part, together, in the background. The user does not have to answer all the time.
 
-## Quality gates (har site par lazmi)
-1. Visual — desktop + mobile screenshot, koi overflow nahi
-2. Tartib — header, hero, sections, footer apni jagah
+## Quality gates (required on every site)
+1. Visual — desktop + mobile screenshot, no overflow
+2. Order — header, hero, sections and footer, each in its place
 3. Speed — Core Web Vitals pass
-4. Function — har button, link, form live test
-5. Trust — sirf real info, kuch invent nahi
-6. Senior — 25 saal checklist; ek bhi kami ho to "ready" nahi
+4. Function — every button, link, form live-tested
+5. Trust — only real information, nothing invented
+6. Senior — 25-year checklist; if even one gap remains, it is not "ready"
 
 ## Rules
-- Backup pehle, live change aapki haan ke baad.
-- Naam, number, price, review sirf aap denge — skill guess nahi karegi.
-- Har kaam ke baad live check + screenshot proof.
+- Back up first; live changes only after your approval.
+- Names, numbers, prices and reviews come only from you — the skill never guesses them.
+- Live check + screenshot proof after every task.
 
 ## GitHub deploy steps
 ```bash
@@ -75,7 +77,7 @@ git remote add origin https://github.com/Gillani77556/muse-webdev.git
 git branch -M main && git push -u origin main
 git tag v0.1.0 && git push origin v0.1.0
 ```
-Repo naam: `muse-webdev`. Branch: `main`. License: MIT. Author: Usman Syed.
+Repo name: `muse-webdev`. Branch: `main`. License: MIT. Author: Usman Syed.
 
 ## License
 MIT — free, open source.

@@ -1,7 +1,7 @@
 [project]
 name = "muse-webdev"
 version = "0.1.0"
-description = "Complete web development skill for Muse AI"
+description = "By Usman Syed — Complete web development skill for Muse AI"
 requires-python = ">=3.11"
 license = "MIT"
 authors = [{name = "Usman Syed"}]

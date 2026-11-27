@@ -2,9 +2,9 @@
 
 ```
 muse-webdev/
-  skills/        36 skills, har ek SKILL.md (frontmatter + instructions)
-  agents/        20 agents, har ek .md (name, description, model, tools)
-  scripts/       Python checks, stdlib only, URL validation ke saath
+  skills/        36 skills, each with a SKILL.md (frontmatter + instructions)
+  agents/        20 agents, each a .md file (name, description, model, tools)
+  scripts/       Python checks, stdlib only, with URL validation
   schema/        JSON-LD templates (placeholders only)
   docs/          COMMANDS, ARCHITECTURE, INSTALLATION, USAGE, TROUBLESHOOTING
   extensions/    11 optional extensions (README only, v0.1.0)
@@ -13,14 +13,14 @@ muse-webdev/
 ```
 
 ## Flow — scratch build (main use case)
-1. User: "website banao" + brief.
-2. Hub `webdev` brief leta hai, missing sawal poochhta hai.
-3. Hub kaam todta hai aur agents ko peeche bhejta hai — design, frontend,
-   performance, visual, senior-review — parallel, background mein.
-4. Har agent apni report deta hai; hub unhe jod kar ek fix list banata hai.
-5. Quality gates: visual, tartib, speed, function, trust, senior.
-6. Client-ready gate pass ho to hi "ready" kaha jata hai.
+1. User: "build a website" + brief.
+2. The `webdev` hub takes the brief and asks about anything missing.
+3. The hub breaks the work down and sends agents to work in the background — design, frontend,
+   performance, visual, senior-review — in parallel.
+4. Each agent reports back; the hub joins them into one fix list.
+5. Quality gates: visual, order, speed, function, trust, senior.
+6. "Ready" is only said once the client-ready gate passes.
 
 ## Models
-- Sonnet: zyada tar agents. Opus (heavy): design, content, ux, drift,
-  visual. Architecture skill ka kaam plan agent karta hai.
+- Sonnet: most agents. Opus (heavy): design, content, ux, drift,
+  visual. The plan agent does the architecture skill's work.

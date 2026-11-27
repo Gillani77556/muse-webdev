@@ -1,20 +1,20 @@
 # TROUBLESHOOTING
 
-## Skill nazar nahi aa rahi
-- Check karo `~/.claude/skills/webdev/SKILL.md` maujood hai ya nahi.
-- Dobara `bash install.sh` chalao, phir Muse restart karo.
+## The skill is not showing up
+- Check whether `~/.claude/skills/webdev/SKILL.md` exists.
+- Run `bash install.sh` again, then restart Muse.
 
-## `webdev doctor` ready false de
-- Python 3.11 ya upar chahiye: `python3 --version` check karo.
+## `webdev doctor` returns ready: false
+- Python 3.11 or higher is required: check with `python3 --version`.
 
-## Script URL fetch nahi kar raha
-- URL `http://` ya `https://` se shuru hona chahiye, public host hona chahiye.
-- Private/localhost URL block hota hai (SSRF guard) — ye jaan boojh kar hai.
+## A script is not fetching a URL
+- The URL must start with `http://` or `https://` and be a public host.
+- Private/localhost URLs are blocked (SSRF guard) — this is deliberate.
 
-## Agent baar baar sawal poochhe
-- Brief mein business, services, phone/WhatsApp aur color de do; jo missing
-  hoga skill ek dafa poochhegi, phir aage badhegi.
+## The agent keeps asking questions
+- Put the business, services, phone/WhatsApp and colours in the brief; the skill will ask once
+  about anything missing, then move on.
 
-## Koi cheez invent hui lage
-- Report karo: skill ko sirf aapki di hui maloomat use karni hai. Missing
-  cheez `[TO CONFIRM]` honi chahiye, guess nahi.
+## Something looks invented
+- Report it: the skill must only use the information you gave. Anything missing
+  should be `[TO CONFIRM]`, never guessed.

@@ -18,7 +18,7 @@ def test_agent_names_and_models():
         text = open(os.path.join(ROOT, "agents", fname)).read()
         assert f"name: {fname[:-3]}" in text, fname
         assert "model: " in text, fname
-        assert "Background mein kaam" in text, fname
+        assert "Working in the background" in text, fname
 
 def test_version_matches():
     plugin = json.load(open(os.path.join(ROOT, ".claude-plugin/plugin.json")))
@@ -31,11 +31,11 @@ def test_hub_lists_scratch_flow_and_commands():
     for cmd in ("/webdev build", "/webdev audit", "/webdev redesign", "/webdev fix",
                 "/webdev page", "/webdev speed", "/webdev launch"):
         assert cmd in hub, cmd
-    assert "Scratch se nayi website" in hub
+    assert "New website from scratch" in hub
     assert "Background agents" in hub
 
 def test_usage_has_scratch_examples():
     usage = open(os.path.join(ROOT, "docs/USAGE.md")).read()
     assert "home cleaning" in usage.lower()
-    assert "dukaan" in usage.lower()
-    assert "website banao" in usage
+    assert "shop" in usage.lower()
+    assert "build a website" in usage

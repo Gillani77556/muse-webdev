@@ -5,13 +5,13 @@
     "name": "Usman Syed"
   },
   "metadata": {
-    "description": "Complete web development skill for Muse AI. 36 skills and 20 background agents for scratch builds, redesigns, audits and client-ready launch."
+    "description": "By Usman Syed — Complete web development skill for Muse AI. 36 skills and 20 background agents for scratch builds, redesigns, audits and client-ready launch."
   },
   "plugins": [
     {
       "name": "muse-webdev",
       "source": "./",
-      "description": "Complete web development skill for Muse AI. 36 skills and 20 background agents.",
+      "description": "By Usman Syed — Complete web development skill for Muse AI. 36 skills and 20 background agents.",
       "author": {
         "name": "Usman Syed"
       },
