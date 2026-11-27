@@ -9,4 +9,7 @@ Get-ChildItem "skills" -Directory | ForEach-Object {
   Copy-Item -Recurse -Force "$($_.FullName)\*" $t
 }
 Copy-Item -Force "agents\*.md" $AgentDir
-Write-Host "Done."
+# Copy shared scripts + launcher — hub runs checks via skills\webdev\scripts\webdev
+New-Item -ItemType Directory -Force -Path "$SkillDir\scripts" | Out-Null
+Copy-Item -Recurse -Force "scripts\*" "$SkillDir\scripts"
+Write-Host "Done. Check: $SkillDir\scripts\webdev doctor"
