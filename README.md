@@ -7,6 +7,26 @@ by Usman Syed — Complete web development skill for Muse AI
 > Just say "build a website" — agents work in the background: design, build,
 > check, polish — while you keep talking.
 
+## Quick install — copy, paste, done
+
+New here? Copy these two lines and paste them into Muse chat:
+
+```
+https://github.com/Gillani77556/muse-webdev
+Install this skill in my virtual machine
+```
+
+Or in Urdu:
+
+```
+https://github.com/Gillani77556/muse-webdev
+Is skill ko meri VM mein install kar do
+```
+
+That is all — Muse clones this repo and runs the installer for you. Then
+just give a topic, for example `/webdev auto a bakery website in Lahore`,
+and the skill builds the whole website itself.
+
 ## First, understand this flow (MAIN use case)
 1. **Install** — see the install steps below.
 2. **Just say a topic** — for example `/webdev auto a bakery website in Lahore`.
