@@ -28,20 +28,26 @@ made it, it is not finished.
   come only from the user. Unknown facts are `[TO CONFIRM]`, never guessed.
 
 ## Steps
-1. Read the brief; list what is known and what is missing.
-2. Draft the blueprint page by page with section, content and CTA.
-3. Ask the user to confirm missing facts before building.
+1. Read the topic; list what is known and what is missing.
+2. Draft the blueprint page by page with section, content and CTA, filling
+   every gap with the AUTO defaults below — do not ask questions first.
+3. Build from the blueprint; report the defaults used so the user can correct
+   them in one message.
 
-## If the user has only said "build a website"
-Stop and ask these 5–6 questions, then move on — never invent:
-1. What is the business, what does it sell / what service does it provide?
-2. Who is it for — who is the customer?
-3. Which pages are needed? (Home, Services, About, Contact, Shop?)
-4. What is the phone / WhatsApp number? What is the email?
-5. What colours or style are preferred? Is there an example site?
-6. If there is a budget or deadline, say so; otherwise write [TO CONFIRM].
-As soon as you have the answers, write the plan/brief. For any answer you do not get, write `[TO CONFIRM]`;
-never guess.
+## AUTO MODE — build from the topic alone (default)
+The user only gives a topic, for example "a bakery website in Lahore". That is
+enough — **draft the blueprint immediately, do not ask questions first.**
+Apply these defaults and keep going:
+- Business name: descriptive name from the topic, marked `[TO CONFIRM]`.
+- Pages: Home, Products/Services, About, FAQ, Contact. Add a shop/order page
+  only if the topic is a shop.
+- Phone / WhatsApp / email: omit; contact form + `[TO CONFIRM]` placeholder.
+  Never invent a real-looking number or address.
+- Colours: pick a professional palette from the topic.
+- Prices: sample prices labelled "Sample price".
+- Reviews: never invent them — omit the section entirely.
+Only ask the user when a fact truly blocks the build (for example a live
+domain to deploy to).
 
 ## Checklist
 - [ ] Every page has a purpose

@@ -12,8 +12,10 @@
 - Private/localhost URLs are blocked (SSRF guard) — this is deliberate.
 
 ## The agent keeps asking questions
-- Put the business, services, phone/WhatsApp and colours in the brief; the skill will ask once
-  about anything missing, then move on.
+- It should not: AUTO MODE is the default. The skill builds from the topic
+  alone and only asks when a fact truly blocks the build (for example a live
+  domain to deploy to). If it still asks first, check that the installed copy
+  is the latest: run `bash install.sh` again, then restart Muse.
 
 ## Something looks invented
 - Report it: the skill must only use the information you gave. Anything missing

@@ -9,13 +9,22 @@ by Usman Syed — Complete web development skill for Muse AI
 
 ## First, understand this flow (MAIN use case)
 1. **Install** — see the install steps below.
-2. **Tell Muse "build a website"** — give your brief: what the business is,
-   what it sells, who it is for, which pages you need, and your preferred colours/style.
-3. **The skill runs in the background** — Step 1 takes the brief (and asks about anything missing),
-   Step 2 plans, Step 3 builds the design system, Step 4 builds, Step 5 live-checks +
-   senior review + client-ready gate.
+2. **Just say a topic** — for example `/webdev auto a bakery website in Lahore`.
+   No brief needed, no questions first — the skill builds the complete website
+   itself and automates everything.
+3. **The skill runs in the background** — Step 1 takes the topic and applies
+   sensible defaults for anything missing (descriptive name marked
+   `[TO CONFIRM]`, sample prices labelled "Sample price", contact form instead
+   of an invented phone number), Step 2 plans, Step 3 builds the design system,
+   Step 4 builds, Step 5 live-checks + senior review + client-ready gate.
 
 Whatever the business — home services, a shop, a service, anything — the flow is the same.
+
+## AUTO MODE (default — no questions first)
+Give only the topic and the skill does the rest. It only asks when a fact
+truly blocks the build, for example a live domain to deploy to. Give more
+detail if you want — name, number, prices, colours — and the skill uses your
+real details instead of the defaults.
 
 ## Install
 ```bash
@@ -25,6 +34,16 @@ bash install.sh
 ```
 
 ## Use — copy-paste lines
+```text
+/webdev auto a bakery website in Lahore
+```
+Just the topic — no other details needed. The skill builds the complete
+website itself: name, pages, design, sample prices, contact form, checks.
+```text
+/webdev auto a travel website in Sharjah
+/webdev auto a home cleaning business website in Karachi
+```
+Or give more detail and the skill uses your real details instead of defaults:
 ```
 Use the webdev skill to build a website from scratch for my home cleaning business.
 Business: home cleaning, Karachi. Services: deep cleaning, sofa cleaning, kitchen cleaning.

@@ -14,7 +14,7 @@ muse-webdev/
 
 ## Flow — scratch build (main use case)
 1. User: "build a website" + brief.
-2. The `webdev` hub takes the brief and asks about anything missing.
+2. The `webdev` hub takes the topic and applies the AUTO defaults for anything missing — it never asks questions first.
 3. The hub breaks the work down and sends agents to work in the background — design, frontend,
    performance, visual, senior-review — in parallel.
 4. Each agent reports back; the hub joins them into one fix list.

@@ -2,7 +2,8 @@
 
 | Command | Skill | What it does |
 |---|---|---|
-| `/webdev build <brief>` | webdev-plan, webdev-brief, webdev-architecture | New website from scratch — MAIN use case |
+| `/webdev auto <topic>` | webdev-plan, webdev-brief, webdev-architecture | Build a complete website from just a topic — AUTO MODE (default, no questions first) |
+| `/webdev build <brief>` | webdev-plan, webdev-brief, webdev-architecture | New website from scratch — same as `auto`, builds immediately with defaults |
 | `/webdev audit <url>` | webdev-audit | Full site audit, score, fix list |
 | `/webdev redesign <url>` | webdev-design, webdev-layout, webdev-design-polish | Make an old site beautiful |
 | `/webdev fix <url>` | webdev-fix | Find the fault, fix it, live-check it |
